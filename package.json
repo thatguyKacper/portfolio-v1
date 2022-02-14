@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "Kacper Wójtowicz",
+  "license": "ISC",
+  "homepage": "https://thatguykacper.github.io/portfolio-v1",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
