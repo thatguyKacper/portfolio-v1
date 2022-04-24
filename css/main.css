@@ -150,6 +150,7 @@ small {
   justify-content: space-around;
   z-index: 1;
   padding: 1em;
+  transition: 0.25s linear;
 }
 
 .view__about h2 {
