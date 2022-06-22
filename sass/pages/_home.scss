@@ -1,0 +1,33 @@
+.section-projects {
+  background-color: $color-primary;
+  text-align: center;
+  border: $border;
+  position: relative;
+  grid-column: span 9;
+  grid-row: span 10;
+}
+
+.section-social {
+  border: $border;
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+.section-picture {
+  border: $border;
+  grid-column: span 3;
+  grid-row: span 9;
+
+  .picture-box {
+    height: 40rem;
+    &__image {
+      width: 100%;
+    }
+  }
+}
+
+.section-skills {
+  border: $border;
+  grid-column: span 9;
+  grid-row: span 1;
+}
