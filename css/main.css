@@ -266,6 +266,15 @@ small {
   transition: 0.25s linear;
 }
 
+.app-footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.app-footer a:hover {
+  color: #f4efde;
+}
+
 .app-footer p {
   text-decoration: none;
   font-size: 4em;
@@ -313,7 +322,7 @@ small {
     font-weight: 800;
   }
   .view__about p {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .view__buttons a {
     font-size: 1.4em;
@@ -344,6 +353,13 @@ small {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .app-name {
     grid-column: span 12;
+    min-height: 10.5em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  small {
+    font-size: 1.4em;
   }
   .app-projects {
     grid-column: span 12;
@@ -359,6 +375,17 @@ small {
   .app-projects__arrows a {
     border-top: 10px solid #000;
     border-bottom: none;
+  }
+  .view__about h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+  .view__about p {
+    font-size: 1.3em;
+  }
+  .view__buttons a {
+    font-size: 1.4em;
+    border-width: 8px;
   }
   .app-social {
     grid-column: span 12;
@@ -379,7 +406,7 @@ small {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
   h1 {
     font-size: 3em;
   }
@@ -392,6 +419,7 @@ small {
   }
   .app-projects {
     grid-column: span 8;
+    min-height: 44.5em;
   }
   .app-projects__arrows a {
     width: 60px;
@@ -405,7 +433,7 @@ small {
     font-weight: 800;
   }
   .view__about p {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   .view__buttons a {
     font-size: 1.5em;
@@ -424,7 +452,6 @@ small {
   }
   .app-picture {
     grid-column: span 4;
-    background-position: 0 -2.5em;
   }
   .app-footer {
     grid-column: span 8;
